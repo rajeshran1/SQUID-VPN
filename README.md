@@ -1,1 +1,7 @@
-# SQUID-VPN
+- name: Set up Android SDK
+  uses: android-actions/setup-android@v3
+  with:
+    packages: |
+      platform-tools
+      platforms;android-35
+      build-tools;35.0.0
